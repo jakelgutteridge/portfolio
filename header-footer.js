@@ -58,8 +58,8 @@ const footerHTML = `
       <table cellpadding="3px 0px 3px 0px" cellspacing="0px" style="width: 100%; max-width: 950px; padding-top: 10px;">
         <tr>
           <td>
-            <span style="float: right;">
-              <small>2019&ndash;2023</small>
+            <span style="float: right; letter-spacing: 1.5px; text-transform: uppercase;">
+              <small>&copy; Jake Gutteridge 2024</small>
             </span>
           </td>
         </tr>
