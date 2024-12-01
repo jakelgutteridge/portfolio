@@ -44,8 +44,7 @@ header {
   background-repeat: no-repeat;
   */
   background-color: #595959;
-  /* color: #d1d1d1; */
-  color: rgba(255, 255, 255, 0.4);
+  color: #d1d1d1;
   padding: 5px;
 }
 
