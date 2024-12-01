@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="/mobile-styles.css" media="screen and (max-width: 600px)">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="/fancybox.css">
-    <script src="script.js"></script>
   </head>
 
   <body>
@@ -39,6 +38,21 @@
     Fancybox.bind("[data-fancybox]", {
   // Your custom options
 });
+</script>
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
 </script>
 
   </body>
