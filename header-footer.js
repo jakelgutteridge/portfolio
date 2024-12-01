@@ -2,7 +2,7 @@
 const headerDiv = document.getElementById('header');
 const footerDiv = document.getElementById('footer');
 
-const mySidenavDiv = document.getElementById('mySidenav');
+const navDiv = document.getElementById('nav');
 
 // Define the injected HTML content for header and footer
 const headerHTML = `
@@ -73,17 +73,11 @@ const footerHTML = `
   </footer>
 `;
 
-// Inject the HTML content into the header and footer divs
-headerDiv.innerHTML = headerHTML;
-footerDiv.innerHTML = footerHTML;
-
-
-
 
 
 /* TEST - Injecting HTML for Sidenav */
 
-const mySidenavHTML = `
+const navHTML = `
   <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="#">About</a>
@@ -93,3 +87,8 @@ const mySidenavHTML = `
 </div>
 
 `;
+
+// Inject the HTML content into the header and footer divs
+headerDiv.innerHTML = headerHTML;
+footerDiv.innerHTML = footerHTML;
+navDiv.innerHTML = navHTML;
