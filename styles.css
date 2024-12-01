@@ -30,6 +30,9 @@ body {
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+
+    /* FOR COLOUR FADE HOVERING OVER MENU BTN */
+    transition: background-color .5s;
 }
 
 
@@ -344,4 +347,58 @@ abbr {cursor: help;}
 @media print {
 header, footer {
   display: none;
+}
+
+
+
+
+
+
+
+
+
+/* SIDE NAVIGATION MENU */
+  
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #213a70;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.6);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ffffff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
