@@ -2,6 +2,8 @@
 const headerDiv = document.getElementById('header');
 const footerDiv = document.getElementById('footer');
 
+const mySidenavDiv = document.getElementById('mySidenav');
+
 // Define the injected HTML content for header and footer
 const headerHTML = `
   <header>
@@ -80,8 +82,6 @@ footerDiv.innerHTML = footerHTML;
 
 
 /* TEST - Injecting HTML for Sidenav */
-
-const mySidenavDiv = document.getElementById('mySidenav');
 
 const mySidenavHTML = `
   <div id="mySidenav" class="sidenav">
