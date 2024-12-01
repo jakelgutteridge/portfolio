@@ -32,10 +32,11 @@ body {
 
 /* Header styles */
 header {
-  background-image: url('/images/headerbg.png');
+  /* background-image: url('/images/headerbg.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  color: #ffffff;
+  */
+  color: #000000;
   padding: 5px;
 }
 
@@ -132,10 +133,11 @@ form {
 }
 /* Footer styles */
 footer {
-  background-image: url('/images/footerbg.png');
+  /* background-image: url('/images/headerbg.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  color: #ffffff;
+  */
+  color: #000000;
   padding: 14px;
 }
 /* Additional styles specific to your page structure */
