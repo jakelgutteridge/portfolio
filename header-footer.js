@@ -17,7 +17,7 @@ const headerHTML = `
             -->
               <h1 style="font-size: 34px; font-family: Optima Bold; text-transform: none;">Jake Gutteridge
               <br>
-              <span style="color: #999999; font-size: 22px; font-family: Optima; letter-spacing: 1.5px; text-transform: uppercase;">
+              <span style="color: #999999; font-size: 20px; font-family: Optima; letter-spacing: 1.5px; text-transform: uppercase;">
               Aspiring Cinematographer
               </span>
               </h1>
