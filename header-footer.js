@@ -17,7 +17,7 @@ const headerHTML = `
               
               <img src="/images/logo.png" height="50" style="float: left; padding: 12px 0px 12px 0px;" alt="Friends of Cedars Park">
             -->
-              <h1 style="font-size: 34px; font-family: Optima Bold; text-transform: none;">Jake Gutteridge
+              <h1 style="color: #999999; font-size: 34px; font-family: Optima Bold; text-transform: none;">Jake Gutteridge
               <br>
               <span style="  color: rgba(255, 255, 255, 0.4); font-size: 20px; font-family: Optima; letter-spacing: 1.5px; text-transform: uppercase;">
               Aspiring Cinematographer
