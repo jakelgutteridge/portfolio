@@ -50,11 +50,13 @@ header {
 
 
 h1 {
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.4)
     padding: 8px 0px 12px 0px;
-    font-family: Optima;
+    font-family: Optima Bold;
     font-weight: normal;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 
