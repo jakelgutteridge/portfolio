@@ -42,6 +42,7 @@ const headerHTML = `
               </div>
             </div>
           -->
+          <p>&copy; Jake Gutteridge 2024</p>
           </td>
         </tr>
       </table>
