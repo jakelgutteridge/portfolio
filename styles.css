@@ -58,7 +58,6 @@ h1 {
 h2 {
   font-size: 16px;
   padding: 10px 0px 10px 0px;
-  color: #6aad0e;
 }
 h3 {
   font-size: 14px;
@@ -88,7 +87,7 @@ main {
 }
 /* Links styles */
 a {
-  color: #1e60c9;
+  color: #ffffff;
   text-decoration: none;
 }
 a:hover, a:focus {
