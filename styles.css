@@ -26,6 +26,10 @@ body {
   background-color: #3b3b3b;
   color: #d1d1d1;
   line-height: 1.6;
+      /* TO MAKE THE FOOTER STICK TO BOTTOM */
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
 }
 
 
@@ -140,6 +144,8 @@ footer {
   background-color: #595959;
   color: #d1d1d1;
   padding: 14px;
+      /* TO MAKE THE FOOTER STICK TO BOTTOM */
+      margin-top: auto;
 }
 /* Additional styles specific to your page structure */
 /* Add your own styles here */
