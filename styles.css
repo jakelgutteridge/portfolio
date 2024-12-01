@@ -71,6 +71,8 @@ h1 {
 h2 {
   font-size: 18px;
   font-weight: normal;
+  font-family: Optima;
+  color: rgba(255, 255, 255, 0.4);
   padding: 10px 0px 10px 0px;
 }
 h3 {
