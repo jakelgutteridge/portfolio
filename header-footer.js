@@ -65,7 +65,9 @@ const footerHTML = `
           <td>
             <span style="float: right; letter-spacing: 1.5px; text-transform: uppercase;">
               <small>&copy; Jake Gutteridge 2024</small>
-              <br><br>&nbsp;
+                <span style="font-size: 10px;">
+                  <br>&nbsp;
+                </span>
             </span>
           </td>
         </tr>
