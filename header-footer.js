@@ -15,7 +15,12 @@ const headerHTML = `
               
               <img src="/images/logo.png" height="50" style="float: left; padding: 12px 0px 12px 0px;" alt="Friends of Cedars Park">
             -->
-              <h1 style="font-size: 36px; font-family: Optima Bold; text-transform: none;">Tree Fun Facts</h1>
+              <h1 style="font-size: 30px; font-family: Optima Bold; text-transform: none;">Jake Gutteridge
+              <br>
+              <span style="color: #999999; font-size: 18px; font-family: Optima;">
+              Aspiring Cinematographer
+              </span>
+              </h1>
             <!--
             </a>
             -->
