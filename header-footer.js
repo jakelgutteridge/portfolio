@@ -79,6 +79,7 @@ footerDiv.innerHTML = footerHTML;
 
 
 
+/* TEST - Injecting HTML for Sidenav */
 
 const mySidenavDiv = document.getElementById('mySidenav');
 
@@ -92,11 +93,3 @@ const mySidenavHTML = `
 </div>
 
 `;
-
-
-
-
-
-
-
-/* Test - injecting the nav menu. see if this html will be injected */
