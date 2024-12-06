@@ -54,12 +54,8 @@ h1 {
     font-size: 32px; /* 32 if normal case */
     color: #bababa; <!-- rgba(122, 160, 255, 0.8); -->
     padding: 8px 0px 12px 0px;
-    font-family: Optima Bold;
+    font-family: Arial;
     font-weight: normal;
-
-  text-align: center;
-
-   letter-spacing: -0.3px;
 }
 
 
